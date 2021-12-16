@@ -97,6 +97,7 @@ const App = (): React.ReactElement => {
           create={CompanyCreate}
           show={CompanyShow}
         />
+
       </Admin>
     </div>
   );

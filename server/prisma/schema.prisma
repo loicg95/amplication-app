@@ -64,7 +64,6 @@ model Product {
   name        String?
   orders      Order[]
   updatedAt   DateTime @updatedAt
-}
 
 model Company {
   createdAt DateTime @default(now())
